@@ -7,15 +7,15 @@ builder.Services.AddCors(options =>
                 policity
                     .AllowAnyOrigin()
                     .AllowAnyHeader()
-                    .AllowAnyMethod();
+                    .AllowAnyMethod()
             }
-        )
+        );
     }
-)
+);
 
 var app = builder.Build();
 
-app.UseCors()
+app.UseCors();
 
 app.MapGet("/",() =>
 {
@@ -39,5 +39,5 @@ app.MapGet("/api/polleria",() =>
     });
 });
 
-var port = Environment.GetEnvironmentVariable("Port")??"10000",
-app.Run($"http://0.0.0.0:(port)");
+var port = Environment.GetEnvironmentVariable("Port")??"10000";
+app.Run($"http://0.0.0.0:{port}");
