@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qn2TSmaTlP4=",
+  "success": true,
+  "projectFilePath": "D:\\YCasayco\\Desarrollo de aplicaciones web\\Semana 06\\Polleria\\Polleria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\estudianteuc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\estudianteuc\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "D:\\YCasayco\\Desarrollo de aplicaciones web\\Semana 06\\Polleria\\Polleria.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\YCasayco\\Desarrollo de aplicaciones web\\Semana 06\\Polleria\\Polleria.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
